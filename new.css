@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url no-repeat;
+    background-position: center;
+    background: url(pexels-eberhardgross-1624438.jpg) no-repeat;
+    background-position: center;
+}
+.new{
+    padding: 20px 30px 50px 0;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgb(39, 38, 38);
+    padding: 30px 40px 50px;
+}
+.new h1{
+    text-align: center;
+    color: rgb(0, 208, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new .user{
+    margin: 10px 0;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    
+
+    
+}
+.new .user input{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: solid 2px rgb(98, 96, 96);
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+
+
+}
+.btn
+{
+    position:relative;
+width: 100%;
+height: 40px;
+border-radius: 20px;
+font-weight: 800;
+border: none;
+}
+.user input::placeholder{
+    color: rgb(3, 23, 26);
+    position: relative;
+    left: 20px;
+}
+a{
+    text-decoration: none;
+    position: relative;
+color: rgb(237, 237, 237);
+    left: 120px;
+    top: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+@media (min-width: 319px) and (max-width:480px)  {
+    body{
+        background: url(pexels-eberhardgross-1624438.jpg)no-repeat;
+        background-position: center;
+    }
+        }
+        @media (min-width: 481px) and (max-width:1200px) {
+            body{
+                background: url(pexels-eberhardgross-1624438.jpg)no-repeat;
+                background-position: center;
+            }
+                }
